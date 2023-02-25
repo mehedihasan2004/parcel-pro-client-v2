@@ -21,7 +21,7 @@ const drawerWidth = 240;
 const Navbar = (props) => {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
-  const { logout } = useAuthContext();
+  const { logout, user } = useAuthContext();
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
@@ -99,12 +99,15 @@ const Navbar = (props) => {
             <NavLink to="/blog">
               <Button sx={{ color: "#fff" }}>Blog</Button>
             </NavLink>
-            <NavLink to="/login">
-              <Button sx={{ color: "#fff" }}>Login</Button>
-            </NavLink>
-            <NavLink onClick={logout} to="/">
-              <Button sx={{ color: "#fff" }}>Logout</Button>
-            </NavLink>
+            {user ? (
+              <NavLink onClick={logout} to="/">
+                <Button sx={{ color: "#fff" }}>Logout</Button>
+              </NavLink>
+            ) : (
+              <NavLink to="/login">
+                <Button sx={{ color: "#fff" }}>Login</Button>
+              </NavLink>
+            )}
           </Box>
         </Toolbar>
       </AppBar>
