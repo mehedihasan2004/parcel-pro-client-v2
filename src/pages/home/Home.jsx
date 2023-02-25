@@ -1,6 +1,7 @@
 import { Container } from "@mui/system";
 import React from "react";
 import {
+  BestPrice,
   BestServices,
   FreightCalculate,
   // Hero,
@@ -13,8 +14,9 @@ import {
   ReachOut,
   RecentArticles,
   ShipmentBook,
-  WeDeliver,
+  WeDeliver
 } from ".";
+import TryCartogon from "./TryCartogon";
 
 const Home = () => {
   return (
@@ -25,13 +27,19 @@ const Home = () => {
         <BestServices />
       </Container>
       <Container>
-        <FreightCalculate />
-      </Container>
-      <Container>
         <OurServices />
       </Container>
       <Container>
         <WeDeliver />
+      <Container>
+        <FreightCalculate />
+      </Container>
+      <Container>
+        <TryCartogon/>
+      </Container>
+      <Container>
+        <BestPrice/>
+      </Container>
       </Container>
       <Container>
         <MobileApp />
