@@ -5,3 +5,4 @@ export { default as Spinner } from "./Spinner";
 export { default as CrewCard } from "./CrewCard";
 export { default as DeliveryBoyAnimation } from "./DeliveryBoyAnimation";
 export { default as MobileAppAnimation } from "./MobileAppAnimation";
+export { default as ContactUsCard } from "./ContactUsCard";
