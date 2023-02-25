@@ -6,3 +6,6 @@ export { default as CrewCard } from "./CrewCard";
 export { default as DeliveryBoyAnimation } from "./DeliveryBoyAnimation";
 export { default as MobileAppAnimation } from "./MobileAppAnimation";
 export { default as ContactUsCard } from "./ContactUsCard";
+export { default as CarCourier } from "./CarCourier";
+export { default as MotorBikeAnimation } from "./MotorBikeAnimation";
+
