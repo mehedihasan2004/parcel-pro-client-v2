@@ -14,7 +14,9 @@ import {
   ReachOut,
   RecentArticles,
   ShipmentBook,
-  WeDeliver
+  WeDeliver,
+  WhyChooseUs,
+  YourExpectation
 } from ".";
 import TryCartogon from "./TryCartogon";
 
@@ -61,6 +63,12 @@ const Home = () => {
       </Container>
       <Container>
         <RecentArticles />
+      </Container>
+      <Container>
+        <YourExpectation />
+      </Container>
+      <Container>
+        <WhyChooseUs />
       </Container>
     </>
   );
