@@ -11,12 +11,12 @@ import React from "react";
 const PriceCard = ({ price }) => {
   return (
     <Box>
-      <Card sx={{ maxWidth: 345, p: "1rem",border:'1px solid #9e9e9e' }}>
+      <Card sx={{ maxWidth: 345, p: "1rem",border:'1px solid black' }}>
         <CardContent>
           <Typography sx={{fontSize:'22px',fontWeight:'700'}}>
             {price?.priceCategory}
           </Typography>
-          <Typography sx={{color:'#ffc107',fontSize:'18px',fontWeight:'600',pt:1}}>
+          <Typography sx={{color:'black',fontSize:'18px',fontWeight:'600',pt:1}}>
             {price?.price}
           </Typography>
           <Typography sx={{color:'#000000',fontWeight:'400',fontSize:'16px',borderBottom:'1px solid yellow',paddingBottom:'12px'}}>

@@ -16,7 +16,8 @@ import {
   ShipmentBook,
   WeDeliver,
   WhyChooseUs,
-  YourExpectation
+  YourExpectation,
+  YourQueries
 } from ".";
 import TryCartogon from "./TryCartogon";
 
@@ -70,6 +71,7 @@ const Home = () => {
       <Container>
         <WhyChooseUs />
       </Container>
+      <YourQueries/>
     </>
   );
 };
