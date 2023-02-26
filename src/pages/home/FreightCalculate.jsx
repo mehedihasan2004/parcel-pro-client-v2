@@ -25,7 +25,7 @@ const FreightCalculate = () => {
             <span
               style={{
                 fontWeight: "bold",
-                color: "yellow",
+                color: "secondary.main",
                 paddingLeft: "5px",
               }}
             >
@@ -73,7 +73,7 @@ const FreightCalculate = () => {
             <Button
               variant="outlined"
               sx={{
-                border: "1px solid yellow",
+                border: "1px solid black",
                 color: "black",
                 px: 4,
                 py: 1,
@@ -81,7 +81,7 @@ const FreightCalculate = () => {
               }}
             >
               Total :{" "}
-              <span style={{ color: "yellow", paddingLeft: "5px" }}>$00</span>
+              <span style={{ color: "secondary.main", paddingLeft: "5px" }}>$00</span>
             </Button>
             <Button
               variant="contained"

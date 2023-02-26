@@ -54,7 +54,7 @@ const BestPrice = () => {
       <Box sx={{ textAlign: "center" }}>
         <Typography variant="h4" gutterBottom>
           Get The{" "}
-          <span style={{ fontWeight: "bold", color: "yellow" }}>
+          <span style={{ fontWeight: "bold", color: "primary.main" }}>
             Best Prices
           </span>
         </Typography>

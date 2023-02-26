@@ -11,7 +11,7 @@ const RecentArticles = () => {
        <h3 style={{fontWeight:'600',fontSize:'15px',padding:'0px'}}>Our Blogs</h3>
        <Typography variant="h4" sx={{lineHeight:'1.2'}}>
           Check Our{" "}
-          <span style={{ fontWeight: "bold", color: "yellow" }}>
+          <span style={{ fontWeight: "bold", color: "primary.main" }}>
             Recent Articles
           </span>
         </Typography>

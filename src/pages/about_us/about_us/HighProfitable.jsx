@@ -20,7 +20,7 @@ const HighProfitable = () => {
         <Grid item lg={6} md={6} xs={12} style={{ background: 'white', padding: '20px' }}>
         <h6>WHO WE ARE</h6>
           <Typography variant='h3' gutterBottom style={{ marginTop: '20px',fontWeight: 'bold' }}>
-          We Make Things Easy & <span style={{color:'rgb(245, 152, 66)'}}>High Profitable</span>
+          We Make Things Easy & <span style={{color:'primary.main'}}>High Profitable</span>
           </Typography>
             <Box  style={{ gap: '10px', marginTop: '20px'}}>
             <Typography variant='h6'> Multi-Platform (Web, IOS & Android)</Typography>

@@ -88,24 +88,27 @@ const Navbar = (props) => {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <NavLink to="/">
-              <Button sx={{ color: "#fff" }}>Home</Button>
+              <Button sx={{ color: "primary.text" }}>Home</Button>
             </NavLink>
             <NavLink to="/about_us">
-              <Button sx={{ color: "#fff" }}>About Us</Button>
+              <Button sx={{ color: "primary.text" }}>About Us</Button>
+            </NavLink>
+            <NavLink to="/about_us_careers">
+              <Button sx={{ color: "primary.text" }}>Careers</Button>
             </NavLink>
             <NavLink to="/contact">
-              <Button sx={{ color: "#fff" }}>Contact</Button>
+              <Button sx={{ color: "primary.text" }}>Contact</Button>
             </NavLink>
             <NavLink to="/blog">
-              <Button sx={{ color: "#fff" }}>Blog</Button>
+              <Button sx={{ color: "primary.text" }}>Blog</Button>
             </NavLink>
             {user ? (
               <NavLink onClick={logout} to="/">
-                <Button sx={{ color: "#fff" }}>Logout</Button>
+                <Button sx={{ color: "primary.text" }}>Logout</Button>
               </NavLink>
             ) : (
               <NavLink to="/login">
-                <Button sx={{ color: "#fff" }}>Login</Button>
+                <Button sx={{ color: "primary.text" }}>Login</Button>
               </NavLink>
             )}
           </Box>
