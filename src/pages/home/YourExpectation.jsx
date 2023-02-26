@@ -23,13 +23,13 @@ const YourExpectation = () => {
           <Typography variant='h4' gutterBottom style={{ marginTop: '20px',fontWeight: 'bold' }}>
           Do you Want a Fast Service? Just Call Us. 
           </Typography>
-          <Typography variant='h6' gutterBottom style={{ marginTop: '20px',fontWeight: 'bold' }}>
+          <Typography variant='p' gutterBottom style={{ marginTop: '20px',fontWeight: 'bold' }}>
           We have built a wide network to get you on. Wherever you live We might go to your living door as your need. Just let us know your demands we will supply withing. Dont forget to knock us on time.  
           </Typography>
 
           <br />
           <Button variant="contained" size="large" style={{ marginTop: '10px' }}>
-            Order Now
+            Call Now
           </Button>
         </Grid>
         
